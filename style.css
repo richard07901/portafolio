@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 html {
@@ -304,7 +305,7 @@ section .title::after {
 
 .services .title::before,
 .teams .title::before {
-    background: #fff;
+    background: #e43424;
 }
 
 .services .title::after,
@@ -448,6 +449,11 @@ section .title::after {
 
 /* team section styling */
 
+.link{
+    color: black!important;
+    text-decoration: none;
+}
+
 .teams .title::after {
     content: "Lo que he hecho";
 }
@@ -480,6 +486,7 @@ section .title::after {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px;
+    color: rgb(255, 255, 255);
 }
 
 .teams .carousel .card img {
