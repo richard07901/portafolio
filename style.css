@@ -438,11 +438,11 @@ section .title::after {
 }
 
 .skills-content .right .php::before {
-    width: 50%;
+    width: 1%;
 }
 
 .skills-content .right .mysql::before {
-    width: 60%;
+    width: 10%;
 }
 
 
