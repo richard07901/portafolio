@@ -15,8 +15,9 @@ $header = "Enviado desde el portafolio: ";
 $mensajeCompleto = $descripcion . "\nAtementamente: ". $nombre;
 mail($destinatario, $asunto, $mensajeCompleto, $header);
 
-echo "<script>alert('Correo enviado exitosamente)</script>";
-echo "<script>setTimeout(\"location.href='index.html'\", 1000)</script>";
+echo "Se envío el mensaje";
+// echo "<script>alert('Correo enviado exitosamente)</script>";
+// echo "<script>setTimeout(\"location.href='index.html'\", 1000)</script>";
 
 // $paraCliente = $email;
 
